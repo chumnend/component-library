@@ -25,7 +25,7 @@ export default [
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
     ],
-    preserveModules: true,
+    // preserveModules: true,
   },
   {
     input: "dist/esm/types/index.d.ts",

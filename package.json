@@ -5,7 +5,7 @@
   "author": "Nicholas Chumney <nicholas.chumney@outlook.com>",
   "license": "ISC",
   "scripts": {
-    "rollup": "rollup -c",
+    "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
