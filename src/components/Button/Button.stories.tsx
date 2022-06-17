@@ -1,11 +1,10 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import Button from './Button';
-import { ButtonProps } from './Button.types';
+import Button, { ButtonProps } from './Button';
 
 export default {
-  title: 'Marbella/Button',
+  title: 'Button',
   component: Button,
   argTypes: {},
 } as Meta<typeof Button>;
@@ -15,45 +14,24 @@ const Template: Story<ButtonProps> = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 
 Primary.args = {
-  primary: true,
-  disabled: false,
+  variant: 'primary',
   text: 'Primary',
+  disabled: false,
+  onClick: () => null,
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  primary: false,
-  disabled: false,
+  variant: 'secondary',
   text: 'Secondary',
+  disabled: false,
+  onClick: () => null,
 };
 
 export const Disabled = Template.bind({});
 Disabled.args = {
-  primary: false,
-  disabled: true,
+  variant: 'primary',
   text: 'Disabled',
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  primary: true,
-  disabled: false,
-  size: 'small',
-  text: 'Small',
-};
-
-export const Medium = Template.bind({});
-Medium.args = {
-  primary: true,
-  disabled: false,
-  size: 'medium',
-  text: 'Medium',
-};
-
-export const Large = Template.bind({});
-Large.args = {
-  primary: true,
-  disabled: false,
-  size: 'large',
-  text: 'Large',
+  disabled: true,
+  onClick: () => null,
 };
