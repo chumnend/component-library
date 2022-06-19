@@ -1,13 +1,6 @@
 import React, { MouseEventHandler } from 'react';
 import styled from 'styled-components';
 
-export interface ButtonProps {
-  variant: 'primary' | 'secondary';
-  text?: string;
-  disabled?: boolean;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
-}
-
 export const BaseButton = styled.button`
   display: inline-block;
   box-sizing: border-box;
@@ -41,6 +34,13 @@ export const SecondaryButton = styled(BaseButton)`
   border: 1px solid #eaeaea;
   color: #666;
 `;
+
+export interface ButtonProps {
+  variant: 'primary' | 'secondary';
+  text?: string;
+  disabled?: boolean;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
+}
 
 const Button = ({ variant, text, disabled, onClick }: ButtonProps) => {
   let content;
