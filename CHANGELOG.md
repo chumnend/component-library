@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.3.0
+
+### Minor Changes
+
+- 8c504bf: added ButtonGroup
+
 ## 0.2.0
 
 ### Minor Changes
