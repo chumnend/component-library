@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.3.1
+
+### Patch Changes
+
+- d963ca0: added empty .npmignore file
+
 ## 0.3.0
 
 ### Minor Changes
