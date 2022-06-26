@@ -20,7 +20,7 @@ yarn
 2) Open Storybook to view components
 
 ```
-yarn storybook
+yarn start
 ```
 
 3) Run tests for validation

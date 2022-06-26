@@ -5,9 +5,8 @@
   "author": "Nicholas Chumney <nicholas.chumney@outlook.com>",
   "license": "ISC",
   "scripts": {
+    "start": "start-storybook -p 6006",
     "build": "rollup -c",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
     "test": "jest",
     "lint": "./node_modules/.bin/eslint ./src",
     "lint:fix": "./node_modules/.bin/eslint ./src --fix && ./node_modules/.bin/prettier --write ./src"
