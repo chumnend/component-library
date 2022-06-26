@@ -1,14 +1,14 @@
 import React, { MouseEventHandler } from 'react';
 import * as $ from './Button.styles';
 
-export interface ButtonProps {
+export interface Props {
   variant: 'primary' | 'secondary';
   text?: string;
   disabled?: boolean;
   onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
-const Button = ({ variant, text, disabled, onClick }: ButtonProps) => {
+const Button = ({ variant, text, disabled, onClick }: Props) => {
   let content;
   switch (variant) {
     case 'primary':
