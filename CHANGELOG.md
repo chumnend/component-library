@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.4.0
+
+### Minor Changes
+
+- 967f368: added Banner component
+
 ## 0.3.1
 
 ### Patch Changes
