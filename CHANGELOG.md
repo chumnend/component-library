@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.5.0
+
+### Minor Changes
+
+- 0ab893e: added Spinner component
+
 ## 0.4.0
 
 ### Minor Changes
