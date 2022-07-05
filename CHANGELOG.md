@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.6.0
+
+### Minor Changes
+
+- 97f7a17: added Container component
+
 ## 0.5.0
 
 ### Minor Changes
