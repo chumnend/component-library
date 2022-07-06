@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.7.0
+
+### Minor Changes
+
+- e4164ef: added Flex component
+
 ## 0.6.0
 
 ### Minor Changes
