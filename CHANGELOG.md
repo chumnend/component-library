@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.9.0
+
+### Minor Changes
+
+- dad04a8: added Modal component
+
 ## 0.8.0
 
 ### Minor Changes
