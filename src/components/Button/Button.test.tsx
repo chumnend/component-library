@@ -15,7 +15,7 @@ describe('<Button />', () => {
     expect(screen.getByRole('button', { name: 'Secondary' })).toBeVisible();
   });
 
-  test('Check Button is disabled', () => {
+  test('check Button is disabled', () => {
     render(<Button text="Button" variant="primary" disabled />);
     expect(screen.getByRole('button', { name: 'Button' })).toBeDisabled();
   });

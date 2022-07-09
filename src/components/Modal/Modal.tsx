@@ -9,6 +9,7 @@ export interface Props {
 }
 
 const Modal = ({ children, show, close }: Props) => {
+  /* istanbul ignore next  */
   const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
     event.stopPropagation();
   };

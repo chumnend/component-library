@@ -25,8 +25,6 @@ const Button = ({ variant, text, disabled, onClick }: Props) => {
         </$.SecondaryButton>
       );
       break;
-    default:
-      content = null;
   }
 
   return content;
