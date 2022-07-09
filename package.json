@@ -7,7 +7,7 @@
   "scripts": {
     "start": "start-storybook -p 6006",
     "build": "rollup -c",
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "./node_modules/.bin/eslint ./src",
     "lint:fix": "./node_modules/.bin/eslint ./src --fix && ./node_modules/.bin/prettier --write ./src"
   },
