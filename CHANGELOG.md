@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.8.0
+
+### Minor Changes
+
+- b00353d: added PageWrapper
+
 ## 0.7.0
 
 ### Minor Changes
