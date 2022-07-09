@@ -4,8 +4,8 @@ import { render, screen } from '@testing-library/react';
 
 import PageWrapper from './PageWrapper';
 
-describe('<Button />', () => {
-  test('render Button with primary variant', () => {
+describe('<PageWrapper />', () => {
+  test('renders PageWrapper without errors', () => {
     render(<PageWrapper>Test</PageWrapper>);
     expect(screen.getByText('Test')).toBeVisible();
   });
