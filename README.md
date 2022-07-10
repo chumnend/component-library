@@ -9,6 +9,7 @@ in Typescript and makes use of tools like `Rollup` and `Storybook` to help me de
 - Typescript
 - Rollup
 - Storybook
+- Yarn 1
 
 ## Getting Started
 1) Install dependencies with your package manager of choice. For this project I made use of Yarn
