@@ -11,7 +11,7 @@ export interface ILink {
 
 export interface Props {
   title: string;
-  links: ILink[];
+  links?: ILink[];
 }
 
 const Navbar = ({ title, links = [] }: Props) => {

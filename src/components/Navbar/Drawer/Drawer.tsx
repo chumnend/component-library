@@ -18,7 +18,7 @@ const Drawer = ({ links, show, close }: Props) => {
       <$.Ul>
         {links.map((el) => (
           <$.Li key={el.title}>
-            <$.NavLink to={el.path} onClick={close}>
+            <$.NavLink href={el.path} onClick={close}>
               {el.title}
             </$.NavLink>
           </$.Li>

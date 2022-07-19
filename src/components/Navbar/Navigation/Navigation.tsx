@@ -17,7 +17,7 @@ const Navigation = ({ links, open }: Props) => {
       <$.Ul>
         {links.map((el) => (
           <$.Li key={el.title}>
-            <$.NavLink to={el.path}>{el.title}</$.NavLink>
+            <$.NavLink href={el.path}>{el.title}</$.NavLink>
           </$.Li>
         ))}
       </$.Ul>

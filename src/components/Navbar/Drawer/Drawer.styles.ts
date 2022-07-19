@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+
 import { device, color } from '../../../helpers/themes';
 
 interface DrawerProps {
@@ -45,7 +45,7 @@ export const Li = styled.li`
   padding: 1rem;
 `;
 
-export const NavLink = styled(Link)`
+export const NavLink = styled.a`
   text-decoration: none;
   background: inherit;
   color: inherit;

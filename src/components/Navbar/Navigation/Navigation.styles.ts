@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+
 import { color, device } from '../../../helpers/themes';
 
 export const Navigation = styled.div``;
@@ -17,7 +17,7 @@ export const Li = styled.li`
   padding: 0.5rem;
 `;
 
-export const NavLink = styled(Link)`
+export const NavLink = styled.a`
   text-decoration: none;
   background: inherit;
   color: inherit;
