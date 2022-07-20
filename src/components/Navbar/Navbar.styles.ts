@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import { color, device } from '../../helpers/themes';
 
 export const Navbar = styled.div`
@@ -25,4 +26,29 @@ export const Brand = styled.p`
   @media all and (min-width: ${device.lg}) {
     font-size: 1.75rem;
   }
+`;
+
+export const Navigation = styled.div``;
+
+export const Ul = styled.ul`
+  display: none;
+  list-style: none;
+  @media all and (min-width: ${device.lg}) {
+    display: flex;
+  }
+`;
+
+export const Menu = styled.div`
+  font-size: 1.5rem;
+  cursor: pointer;
+  @media all and (min-width: ${device.lg}) {
+    display: none;
+  }
+`;
+
+export const Line = styled.div`
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 `;

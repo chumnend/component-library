@@ -9,4 +9,8 @@ describe('<Navbar />', () => {
     render(<Navbar title="Navbar" />);
     expect(screen.getByText('Navbar')).toBeVisible();
   });
+
+  test('open function called when menu button click', () => {
+    render(<Navbar title="Navbar" />);
+  });
 });

@@ -1,33 +1,27 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import Drawer from './Drawer';
-import Navigation from './Navigation';
 import * as $ from './Navbar.styles';
-
-export interface ILink {
-  title: string;
-  path: string;
-}
 
 export interface Props {
   title: string;
-  links?: ILink[];
+  open?: () => void;
+  children?: React.ReactNode;
 }
 
-const Navbar = ({ title, links = [] }: Props) => {
-  const [showDrawer, setShowDrawer] = useState(false);
-
+const Navbar = ({ title, open = () => null, children }: Props) => {
   return (
     <$.Navbar>
       <$.Container>
         <$.Brand>{title}</$.Brand>
-        <Navigation links={links} open={() => setShowDrawer(true)} />
+        <$.Navigation>
+          <$.Menu onClick={open}>
+            <$.Line />
+            <$.Line />
+            <$.Line />
+          </$.Menu>
+          <$.Ul>{children}</$.Ul>
+        </$.Navigation>
       </$.Container>
-      <Drawer
-        links={links}
-        show={showDrawer}
-        close={() => setShowDrawer(false)}
-      />
     </$.Navbar>
   );
 };

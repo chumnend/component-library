@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { device, color } from '../../../helpers/themes';
+import { device, color } from '../../helpers/themes';
 
 interface DrawerProps {
   readonly show: boolean;
@@ -38,19 +38,4 @@ export const Ul = styled.ul`
   display: flex;
   flex-direction: column;
   list-style: none;
-`;
-
-export const Li = styled.li`
-  display: inline-block;
-  padding: 1rem;
-`;
-
-export const NavLink = styled.a`
-  text-decoration: none;
-  background: inherit;
-  color: inherit;
-  font-size: 1.2rem;
-  &:hover {
-    color: ${color.red};
-  }
 `;
