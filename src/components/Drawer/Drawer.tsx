@@ -12,7 +12,7 @@ const Drawer = ({ show, close = () => null, children }: Props) => {
   return (
     <$.Drawer show={show}>
       <$.Close>
-        <i className="fas fa-times" onClick={close} />
+        <$.CloseIcon onClick={close}>X</$.CloseIcon>
       </$.Close>
       <$.Ul>{children}</$.Ul>
     </$.Drawer>

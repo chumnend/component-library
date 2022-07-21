@@ -16,8 +16,8 @@ Example.args = {
   title: 'Navbar',
   open: () => console.log('menu clicked'),
   children: [
-    <NavLink key={1} title="Home" path="/" />,
-    <NavLink key={2} title="About" path="/" />,
-    <NavLink key={3} title="Contact" path="/" />,
+    <NavLink key={1} title="Home" path="#" />,
+    <NavLink key={2} title="About" path="#" />,
+    <NavLink key={3} title="Contact" path="#" />,
   ],
 };

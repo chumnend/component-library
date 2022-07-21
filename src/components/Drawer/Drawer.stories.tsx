@@ -19,19 +19,19 @@ Example.args = {
     <DrawerLink
       key={1}
       title="Home"
-      path="/"
+      path="#"
       close={() => console.log('clicked')}
     />,
     <DrawerLink
       key={2}
       title="About"
-      path="/"
+      path="#"
       close={() => console.log('clicked')}
     />,
     <DrawerLink
       key={3}
       title="Contact"
-      path="/"
+      path="#"
       close={() => console.log('clicked')}
     />,
   ],

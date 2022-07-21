@@ -13,6 +13,6 @@ export const NavLink = styled.a`
   color: inherit;
   font-size: 1.2rem;
   &:hover {
-    color: ${color.black};
+    color: ${color.grey};
   }
 `;
