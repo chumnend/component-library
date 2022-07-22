@@ -4,17 +4,17 @@ import * as $ from './Navbar.styles';
 
 export interface Props {
   title: string;
-  open?: () => void;
+  open: () => void;
   children?: React.ReactNode;
 }
 
-const Navbar = ({ title, open = () => null, children }: Props) => {
+const Navbar = ({ title, open, children }: Props) => {
   return (
     <$.Navbar>
       <$.Container>
         <$.Brand>{title}</$.Brand>
         <$.Navigation>
-          <$.Menu onClick={open}>
+          <$.Menu onClick={open} data-testid="menu-button">
             <$.Line />
             <$.Line />
             <$.Line />

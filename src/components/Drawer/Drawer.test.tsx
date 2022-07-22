@@ -7,7 +7,7 @@ import DrawerLink from '../DrawerLink';
 
 describe('<Drawer />', () => {
   test('render Drawer with no links', () => {
-    render(<Drawer show={true} />);
+    render(<Drawer show={true} close={console.log} />);
   });
 
   test('render Drawer with links', () => {
