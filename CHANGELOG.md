@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.11.0
+
+### Minor Changes
+
+- ccd21b8: added Footer
+
 ## 0.10.0
 
 ### Minor Changes
