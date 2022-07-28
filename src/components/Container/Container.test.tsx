@@ -4,8 +4,8 @@ import { render, screen } from '@testing-library/react';
 
 import Container from './Container';
 
-describe('<Button />', () => {
-  test('render Button with primary variant', () => {
+describe('<Container />', () => {
+  test('render Container without error', () => {
     render(<Container>Test</Container>);
     expect(screen.getByText('Test')).toBeVisible();
   });
