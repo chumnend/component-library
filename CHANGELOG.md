@@ -1,5 +1,11 @@
 # @chumnend/component-library
 
+## 0.12.0
+
+### Minor Changes
+
+- 174fbff: added Icon
+
 ## 0.11.0
 
 ### Minor Changes
